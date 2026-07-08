@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "eduvia-profile",
+  "compatibility_date": "2026-07-08",
+  "observability": {
+    "enabled": true,
+  },
+  "main": "@tanstack/react-start/server-entry",
+  "compatibility_flags": ["nodejs_compat"],
+}
