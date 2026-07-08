@@ -5,6 +5,9 @@
   "observability": {
     "enabled": true,
   },
-  "main": "@tanstack/react-start/server-entry",
+  "main": ".output/server/index.mjs",
+  "assets": {
+    "directory": ".output/public",
+  },
   "compatibility_flags": ["nodejs_compat"],
 }
